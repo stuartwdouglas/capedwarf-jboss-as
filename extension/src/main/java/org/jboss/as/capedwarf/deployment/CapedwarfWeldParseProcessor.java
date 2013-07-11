@@ -23,7 +23,7 @@
 package org.jboss.as.capedwarf.deployment;
 
 import org.jboss.as.server.deployment.DeploymentUnit;
-import org.jboss.as.weld.WeldDeploymentMarker;
+import org.jboss.as.ee.weld.WeldDeploymentMarker;
 
 /**
  * Make every Capedwarf app a CDI app -- due to admin console.

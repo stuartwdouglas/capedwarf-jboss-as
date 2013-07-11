@@ -79,7 +79,7 @@ public class CapedwarfDeploymentProcessor extends CapedwarfDeploymentUnitProcess
     private static final ModuleIdentifier BOUNCY_CASTLE_PKIX = ModuleIdentifier.create("org.bouncycastle.bcpkix");
     private static final ModuleIdentifier BOUNCY_CASTLE_PROV = ModuleIdentifier.create("org.bouncycastle.bcprov");
     private static final ModuleIdentifier COMMON_CORE = ModuleIdentifier.create("org.jboss.common-core");
-    private static final ModuleIdentifier WEB = ModuleIdentifier.create("org.jboss.as.web");
+    private static final ModuleIdentifier UNDERTOW_SERVLET = ModuleIdentifier.create("io.undertow.servlet");
     private static final ModuleIdentifier MARSHALLING = ModuleIdentifier.create("org.jboss.marshalling");
     private static final ModuleIdentifier MARSHALLING_RIVER = ModuleIdentifier.create("org.jboss.marshalling.river");
     // inline this module deps, if running with bundled
@@ -102,7 +102,7 @@ public class CapedwarfDeploymentProcessor extends CapedwarfDeploymentUnitProcess
             BOUNCY_CASTLE_PKIX,
             BOUNCY_CASTLE_PROV,
             COMMON_CORE,
-            WEB,
+        UNDERTOW_SERVLET,
             MARSHALLING,
             MARSHALLING_RIVER
     };
